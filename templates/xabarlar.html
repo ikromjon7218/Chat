@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>xabarlar</title>
+</head>
+<body>
+<center><h1> Bizning saytimizga xush kelibsiz !</h1></center>
+<hr>
+{% for i in xabarlar %}
+<h2>{{i.foydalanuvchi}}</h2>
+    <h2>{{i.matn}}</h2>
+    <hr>
+{% endfor %}
+
+</body>
+</html>
